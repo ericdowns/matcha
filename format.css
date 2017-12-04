@@ -1,3 +1,5 @@
+/* @override https://cdn.rawgit.com/ericdowns/matcha/a22ab6ba/format.css */
+
 /* Homepage - Hero Section */
 img {
   display: block;
@@ -4360,4 +4362,37 @@ body .mp-bar-text {
 
 .section-countdown-timmer {
   margin-bottom: 30px;
+}
+
+.section-holiday-promotion{
+
+	background: #f9f9f9;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+	padding: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.section-holiday-promotion img{
+}
+
+.section-holiday-promotion a {
+	display: block;
+
 }
